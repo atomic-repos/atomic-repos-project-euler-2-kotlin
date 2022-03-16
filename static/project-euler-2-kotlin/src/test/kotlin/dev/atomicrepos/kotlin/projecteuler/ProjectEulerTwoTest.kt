@@ -7,8 +7,7 @@ class ProjectEulerTwoTest {
 
     @Test
     fun shouldCalculateFibonacciSum() {
-       assertThat(fibonacciSum(4_000_000)).isEqualTo(9227464)
+       assertThat(fibonacciSum(4_000_000)).isEqualTo(9_227_464)
     }
-
 
 }

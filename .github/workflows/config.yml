@@ -4,7 +4,7 @@ on: [push]
 
 defaults:
   run:
-    working-directory: static/hello-world-kotlin
+    working-directory: static/project-euler-2-kotlin
 
 jobs:
   build:

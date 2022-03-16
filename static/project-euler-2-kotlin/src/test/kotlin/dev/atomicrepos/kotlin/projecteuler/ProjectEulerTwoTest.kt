@@ -6,8 +6,8 @@ import org.junit.Test
 class ProjectEulerTwoTest {
 
     @Test
-    fun shouldCalculateFibonacciSum() {
-       assertThat(fibonacciSum(4_000_000)).isEqualTo(9_227_464)
+    fun shouldCalculateEvenFibonacciSum() {
+       assertThat(evenFibonacciSum(4_000_000)).isEqualTo(4_613_732)
     }
 
 }
